@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/*",
+    "play",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "cd play & pnpm dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cesium/components": "workspace:^",
+    "@cesium/theme-chalk": "workspace:^",
+    "@cesium/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.15"
+  }
+}

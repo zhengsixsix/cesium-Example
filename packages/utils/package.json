@@ -1,0 +1,6 @@
+{
+  "name": "@cesium/utils",
+  "private": true,
+  "license": "MIT",
+  "main": "index.ts"
+}
