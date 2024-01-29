@@ -1,8 +1,9 @@
 {
   "name": "@cesium/components",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.5",
+  "description": "all components are settled here",
   "main": "index.js",
+  "module": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

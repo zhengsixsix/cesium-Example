@@ -10,6 +10,7 @@
     },
     "include": [
         "packages/utils/index.ts",
+        "packages/**/*.ts",
         // playground
         "play/main.ts",
         "play/env.d.ts",

@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "dev": "cd play & pnpm dev",
+    "docs:dev": "cd docs & pnpm docs:dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

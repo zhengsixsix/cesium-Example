@@ -1,0 +1,24 @@
+{
+  "name": "@cesium/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flexsearch": "^0.7.43",
+    "markdown-it": "^14.0.0",
+    "vitepress": "1.0.0-rc.40",
+    "vitepress-plugin-search": "1.0.4-alpha.22"
+  },
+  "dependencies": {
+    "vite": "^5.0.8"
+  }
+}
